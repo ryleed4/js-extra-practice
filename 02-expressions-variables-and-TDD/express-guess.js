@@ -5,6 +5,6 @@
 // Expression: 20 * (50 / (5 * 2) + 15)
 
 // YOUR CODE BELOW
-
+const myGuess = 400
 // Do not change the code below
 module.exports = { myGuess };

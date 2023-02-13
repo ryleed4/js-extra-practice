@@ -6,14 +6,19 @@
 // For example, if the word is equal to 'apples', lastWord should be equal to 'apples'.
 // If the word is equal to 'perfect', 'lastWord' should be equal to 'PERFECT'.
 
-let word = "carrots";
+//let word = "carrots";
 // let word = 'pacific';
 // let word = 'perfecto';
-// let word = 'perfect';
+let word = 'perfect';
 
-let lastWord;
+let lastWord ;
 
 // YOUR CODE BELOW
-
+if (word[0] === 'p' && word.length === 7){
+ lastWord = 'PERFECT'
+}
+else {
+    lastWord = word
+}
 // Do not the the code below
 module.exports = { word, lastWord };
